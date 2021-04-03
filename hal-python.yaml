@@ -1,0 +1,13 @@
+python-tinymovr-pip:
+  debian:
+    pip:
+      packages: [tinymovr]
+  fedora:
+    pip:
+      packages: [tinymovr]
+  osx:
+    pip:
+      packages: [tinymovr]
+  ubuntu:
+    pip:
+      packages: [tinymovr]

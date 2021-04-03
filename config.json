@@ -1,0 +1,58 @@
+{
+    "motor_groups": {
+        "front_right_leg":["hip_x","hip_y","leg_y"]
+    },
+    "motors":{
+        "hip_x":{
+            "id_can": "3",
+            "type" : "Tinymovr",
+            "model" : "MAD5005",
+            "motor_kv": "280",
+            "ratio":9.0,
+            "joint_name":"hip_x_joint",
+            "orientation":"indirect",
+            "limit_upper":45.0,
+            "limit_lower":-40.0,
+            "broken":"false",
+            "max_speed":1000.0,
+            "max_current":10.0,
+            "gain_position":25.0,
+            "gain_velocity":0.00001,
+            "gain_integrator":0.001
+        },
+        "hip_y":{
+            "id_can": "2",
+            "type" : "Tinymovr",
+            "model" : "MAD5008",
+            "motor_kv": "240",
+            "ratio":9.0,
+            "joint_name":"hip_y_joint",
+            "orientation":"indirect",
+            "limit_upper":105.0,
+            "limit_lower":-105.0,
+            "broken":"false",
+            "max_speed":1000.0,
+            "max_current":10.0,
+            "gain_position":25.0,
+            "gain_velocity":0.00001,
+            "gain_integrator":0.001
+        },
+        "leg_y":{
+            "id_can": "1",
+            "type" : "Tinymovr",
+            "model" : "MAD5008",
+            "motor_kv": "240",
+            "ratio":9.0,
+            "joint_name":"leg_y_joint",
+            "orientation":"direct",
+            "limit_upper":150.0,
+            "limit_lower":-150.0,
+            "broken":"false",
+            "max_speed":1000.0,
+            "max_current":10.0,
+            "gain_position":25.0,
+            "gain_velocity":0.00001,
+            "gain_integrator":0.001
+        }
+    }
+}
