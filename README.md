@@ -1,8 +1,11 @@
 # Hardware abstraction layer for quadruped Vanille
 This repository is the ROS2 package taking care about motor control, sensors and kinematics.
-All is done from scratch for understanding and discovery purpose.
+All is done from scratch for understanding and discovery purpose about legged robots and ROS2.
 The global software architecture is based on ROS2 with a big inspiration from [loki le dev](https://gitlab.com/lokiledev/droid) 
 This repository is still under construction and very linked to the robot hardware structure.
+
+motor.py, transmission.py are not used
+test_cmd.py and test_traj.py are just here to publish msg for test.
 
 ## Motor control (vanille_hal node)
 The motors used on robot Vanille are Brushless Direct Current MAD Component motors with a Tinymovr driver
