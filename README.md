@@ -2,7 +2,7 @@
 This repository is the ROS2 package taking care about motor control, sensors and kinematics.
 All is done from scratch for understanding and discovery purpose about legged robots and ROS2.
 The global software architecture is based on ROS2 with a big inspiration from [loki le dev](https://gitlab.com/lokiledev/droid) 
-This repository is still under construction and very linked to the robot hardware structure.
+This repository is still under construction and very linked to the robot hardware structure. It is not yet "plug and play"
 
 motor.py, transmission.py are not used
 test_cmd.py and test_traj.py are just here to publish msg for test.
