@@ -11,7 +11,7 @@ test_cmd.py and test_traj.py are just here to publish msg for test.
 The motors used on robot Vanille are Brushless Direct Current MAD Component motors with a Tinymovr driver
 - [Tinymovr website](https://tinymovr.com/)
 - [MAD Component website](https://mad-motor.com/)
-- [Continental belts](https://www.continental-industry.com/fr/solutions/power-transmission/industrial-applications/drive-belts/synchronous-belts/products/product-range/conti-synchroflex-gen3)
+- [Continental belts GEN III](https://www.binder-magnetic.com/categorie-produit/transmissions-synchrones/courroies/courroies-puissance/?filters=cour_pui_gamme_produit[8684]|cour_pui_ct_profil_pas[8518])
 
 To control the motors, we use the [Tinymovr Python Library](https://tinymovr.readthedocs.io/en/latest/api/guide.html#api-reference).
 
